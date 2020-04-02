@@ -47,7 +47,7 @@ dependencies {
     compile "org.apereo.cas:cas-server-support-jdbc:${casServerVersion}"
     compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.17'
     compile group: 'com.alibaba', name: 'druid', version: '1.1.21'
-    runtime group: 'org.apereo.cas', name: 'cas-server-support-jdbc-drivers', version: '6.0.0'
+    runtime group: 'org.apereo.cas', name: 'cas-server-support-jdbc-drivers', version: '6.0.7'
 }
 tasks.findByName("jibDockerBuild")
     .dependsOn(copyWebAppIntoJib, copyConfigIntoJib)
